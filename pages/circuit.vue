@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style>
-@import '../dist/semantic.rtl.css';
+ 
 .container {
   min-height: 100vh;
   display: flex;
