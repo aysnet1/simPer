@@ -6,14 +6,14 @@
         المحاكاة في الايقاظ العلمي
       </h2>
       <h2 class="subtitle1">
-        Simulator Interactive Prime School
+        Simulator Interactive Prime School Tunisia
       </h2>
 
       <div dir="rtl" class="ui raised very padded text container segment">
-  <h2 class="ui header">تقنيات المحاكاة</h2>
+  <h2 class="ui header">المساعدة</h2>
     <div class="image" align="center">
 
-<img align="center"    src="~/assets/soon.jpg"/>
+<img class="imh"    src="~/assets/soon.jpg"/>
     </div>
 
 </div>

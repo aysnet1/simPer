@@ -1,6 +1,6 @@
 <template>
-  <div dir="ltr" id="">
-    <div class="ui three item inverted menu fixed top  nine  labeled icon">
+  <div dir="ltr" style="margin:33px">
+    <div class="ui top  inverted five item labeled icon sidebar menu  visible" >
       <router-link class="item" to="/">
       <i class="home icon"></i>
       الرّئيسية
@@ -36,5 +36,8 @@ export default {
   })
 }
 </script>
-<style lang="scss" scoped>
+<style >
+.item {
+  min-width:4.3em  !important;
+}
 </style>
