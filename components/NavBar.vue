@@ -1,6 +1,6 @@
 <template>
   <div dir="ltr" id="">
-    <div class="ui top demo inverted nine item labeled icon sidebar menu push visible" style="">
+    <div class="ui three item inverted menu fixed top  nine  labeled icon">
       <router-link class="item" to="/">
       <i class="home icon"></i>
       الرّئيسية
