@@ -15,8 +15,9 @@ export default {
 </script>
 <style>
 @import '../seman/semantic.rtl.css';
+
 body{
- padding-top:70px !important;
+ padding-top:60px !important;
 
 }
 iframe{
@@ -34,6 +35,7 @@ iframe{
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+
 
 *, *:before, *:after {
   box-sizing: border-box;

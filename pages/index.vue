@@ -3,11 +3,12 @@
     <div>
       <app-logo/>
       <h2>
-        المحاكاة في الايقاظ العلمي
+        المخبر الافتراضي للمدرسة الابتدائية
       </h2>
-      <h2 class="subtitle1">
-Simulator Interactive Prime School Tunisia
+      <h2 class="subtitle">
+Tunisiana Simulator Interactive
       </h2>
+      <p>مشروع ختم الاجازة التطبيقة في التربية والتعليم</p>
       <div class="links">
          <nuxt-link   class="button--green" to="/labo"> المخبر</nuxt-link>
 
@@ -56,11 +57,11 @@ export default {
 }
 
 .subtitle {
-  font-weight: 300;
-  font-size: 42px;
+  font-weight: 150px;
+  font-size: 22px;
   color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
+  word-spacing: 2px;
+  padding-bottom: 8px;
 }
 
 .links {

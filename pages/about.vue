@@ -1,10 +1,7 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
-      <h2 >
-        المحاكاة في الايقاظ العلمي
-      </h2>
+
       <h2 class="subtitle1">
       Simulator Interactive Prime School
       </h2>
@@ -13,7 +10,7 @@
 
       </div>
       <div dir="rtl" class="ui raised very padded text container segment">
-  <h2 class="ui header">تقنيات المحاكاة</h2>
+  <h2 class="ui header">الفريق</h2>
   <p> نسعى لتوفير مجموعة واسعة من تقنيات المحاكاة لتحسين طريقة التدريس وتعلم المواد العلمية مثل :الايقاظ العلمي=> الفيزياء والكيمياء والأحياء وعلوم الأراض .
      </p>
     <p><dfn>
@@ -51,12 +48,7 @@ export default {
 </script>
 
 <style>
-p{
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  font-weight: 15;
-  font-size: 20px;
-  justify-content: rigth;
-}
+ 
 .container {
   min-height: 100vh;
   display: flex;

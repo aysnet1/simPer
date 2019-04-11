@@ -1,13 +1,10 @@
 <template>
   <section class="container">
     <div>
-      <app-logo/>
-      <h2 >
-        المحاكاة في الايقاظ العلمي
-      </h2>
-      <h2 class="subtitle1">
-        Simulator Interactive Prime School Tunisia
-      </h2>
+      <div class="links">
+         <nuxt-link   class="button--green" to="/labo"> المخبر</nuxt-link>
+
+      </div>
 
       <div dir="rtl" class="ui raised very padded text container segment">
   <h2 class="ui header">المساعدة</h2>
