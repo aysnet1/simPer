@@ -15,7 +15,7 @@
         </div>
         <div style="position: relative; width: 300px; height: 200px;">
            <nuxt-link to="/simv" style="text-decoration: none;"><img src="~/assets/plante.png"
-              alt="Circuit Construction Kit: DC" style="border: none;" width="300" height="200" />
+              alt="plante" style="border: none;" width="300" height="200" />
             <div style="position: absolute; width: 200px; height: 80px; left: 50px; top: 60px; background-color: #FFF; opacity: 0.6; filter: alpha(opacity = 60);"></div>
             <table style="position: absolute; width: 200px; height: 80px; left: 50px; top: 60px;">
               <tr>

@@ -3,7 +3,7 @@
 
 <div dir="rtl" id="">
   <div class="ui divider"></div>
-    <iframe src="https://mh-moqa.netlify.com/pfe/circuit.html"
+    <iframe src="https://mh-moqa.netlify.com/pfe/circuit2.html"
     style="width:100%" height="600" scrolling="no" allowfullscreen></iframe>
 </div>
 </template>
@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style>
- 
+
 .container {
   min-height: 100vh;
   display: flex;
