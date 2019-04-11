@@ -6,7 +6,7 @@
         المحاكاة في الايقاظ العلمي
       </h2>
       <h2 class="subtitle1">
-        Simulator Intractive Prime School Tunisia
+      Simulator Interactive Prime School
       </h2>
       <div class="links">
          <nuxt-link   class="button--green" to="/labo"> المخبر</nuxt-link>

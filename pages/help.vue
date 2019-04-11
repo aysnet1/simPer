@@ -6,7 +6,7 @@
         المحاكاة في الايقاظ العلمي
       </h2>
       <h2 class="subtitle1">
-        Simulator Intractive Prime School Tunisia
+        Simulator Interactive Prime School
       </h2>
 
       <div dir="rtl" class="ui raised very padded text container segment">
