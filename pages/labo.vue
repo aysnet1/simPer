@@ -2,7 +2,7 @@
 <template >
 
 <div dir="rtl" id="">
-  <div class="ui divider"></div>
+
   <div class="ui special cards">
     <div class="card">
       <div class="image">

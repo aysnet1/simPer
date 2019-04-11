@@ -16,7 +16,12 @@ export default {
 <style>
 @import '../seman/semantic.rtl.css';
 body{
- padding-top:80px !important;
+ padding-top:70px !important;
+
+}
+iframe{
+   border-style: none;
+   border:0;
 
 }
  html {

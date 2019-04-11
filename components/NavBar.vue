@@ -25,6 +25,7 @@
   مساعدة
       </router-link>
     </div>
+      <div class="ui divider"></div>
   </div>
 </template>
 <script>
