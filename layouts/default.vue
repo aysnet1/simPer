@@ -15,6 +15,10 @@ export default {
 </script>
 <style>
 @import '../seman/semantic.rtl.css';
+body{
+ padding-top:80px !important;
+
+}
  html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
   font-size: 16px;

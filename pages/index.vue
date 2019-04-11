@@ -2,10 +2,10 @@
   <section class="container">
     <div>
       <app-logo/>
-      <h1 class="title">
-        المحاكاة في الايقاظ العلمي 
-      </h1>
-      <h2 class="subtitle">
+      <h2 >
+        المحاكاة في الايقاظ العلمي
+      </h2>
+      <h2 class="subtitle1">
         Simulator Intractive Prime School Tunisia
       </h2>
       <div class="links">
