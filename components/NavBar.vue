@@ -7,6 +7,7 @@
     </router-link>
     <router-link class="item" to="/labo">
       <i class="flask icon"></i>
+      
     المختبر
     </router-link>
 

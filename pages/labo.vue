@@ -33,11 +33,14 @@
         </div>
       </div>
       <div class="extra content">
-        <a>
+        <span>
           <i class="flask icon"></i>
           1 تجارب
-        </a>
-        By US
+        </span>
+          By
+        <nuxt-link class="by-link" to="/about">
+      Tunisina
+      </nuxt-link>
       </div>
     </div>
     <div class="card">
@@ -70,11 +73,14 @@
         </div>
       </div>
       <div class="extra content">
-        <a>
+        <span>
           <i class="flask icon"></i>
           1 تجارب
-        </a>
-        By Phet Colarado
+        </span>
+        By
+        <nuxt-link class="by-link" to="/phet">
+         PhET Simulations
+      </nuxt-link>
       </div>
     </div>
     <div class="card">
@@ -107,11 +113,14 @@
         </div>
       </div>
       <div class="extra content">
-        <a>
+        <span>
           <i class="flask icon"></i>
           1 تجارب
-        </a>
-          By Phet Colarado
+        </span>
+          By
+        <nuxt-link class="by-link" to="/phet">
+       PhET Simulations
+      </nuxt-link>
       </div>
     </div>
   </div>
@@ -130,6 +139,9 @@ export default {
 </script>
 
 <style>
+.by-link{
+  color:#13ab5e !important;
+}
 
 
 </style>
