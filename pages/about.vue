@@ -4,7 +4,7 @@
 
 
       <div class="links">
-         <nuxt-link   class="button--green" to="/labo"> المخبر</nuxt-link>
+         <nuxt-link   class="button--green" to="/labo"> المختبر</nuxt-link>
 
       </div>
       <div dir="rtl" class="ui raised very padded text container segment">
