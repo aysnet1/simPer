@@ -3,10 +3,10 @@
     <div>
       <app-logo/>
       <h2>
-        مختبر العلوم الرقمي للمدرسة التونسية
+        مختبر العلوم للمدرسة التونسية
       </h2>
       <h2 class="subtitle">
-Tunisiana Simulator Interactive
+Tunisina Simulator Interactive
       </h2>
       <p>مشروع ختم الاجازة التطبيقة في التربية والتعليم</p>
       <div class="links">
