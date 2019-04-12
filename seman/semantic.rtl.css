@@ -28090,7 +28090,7 @@ Vertical Alignment
  -webkit-box-direction: normal;
  -ms-flex-direction: column;
  flex-direction: column;
- width: 290px;
+
  min-height: 0px;
  background: #FFFFFF;
  padding: 0em;
@@ -28104,6 +28104,7 @@ Vertical Alignment
  transition: box-shadow 0.1s ease, transform 0.1s ease, -webkit-box-shadow 0.1s ease, -webkit-transform 0.1s ease;
  z-index: '';
 }
+
 
 .ui.card {
  margin: 1em 0em;

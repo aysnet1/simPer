@@ -1,7 +1,7 @@
 
 <template >
 
-<div dir="rtl" id="">
+<div dir="rtl" id="" style="margin:33px">
 
   <div class="ui special cards">
     <div class="card">
@@ -13,7 +13,7 @@
             </div>
           </div>
         </div>
-        <div style="position: relative; width: 300px; height: 200px;">
+        <div >
            <nuxt-link to="/simv" style="text-decoration: none;"><img src="~/assets/plante.png"
               alt="plante" style="border: none;" width="300" height="200" />
             <div style="position: absolute; width: 200px; height: 80px; left: 50px; top: 60px; background-color: #FFF; opacity: 0.6; filter: alpha(opacity = 60);"></div>
@@ -49,7 +49,7 @@
             </div>
           </div>
         </div>
-        <div style="position: relative; width: 300px; height: 200px;">
+        <div  >
            <nuxt-link to="/forse" style="text-decoration: none;"><img src="~/assets/6fors.png"
               alt="الطاقة" style="border: none;" width="300" height="200" />
             <div style="position: absolute; width: 200px; height: 80px; left: 50px; top: 60px; background-color: #FFF; opacity: 0.6; filter: alpha(opacity = 60);"></div>
@@ -86,7 +86,7 @@
             </div>
           </div>
         </div>
-        <div style="position: relative; width: 300px; height: 200px;">
+        <div  >
            <nuxt-link to="/circuit" style="text-decoration: none;"><img src="~/assets/circuit.png"
               alt="الدارة الكهربائية" style="border: none;" width="300" height="200" />
             <div style="position: absolute; width: 200px; height: 80px; left: 50px; top: 60px; background-color: #FFF; opacity: 0.6; filter: alpha(opacity = 60);"></div>
@@ -131,5 +131,5 @@ export default {
 
 <style>
 
- 
+
 </style>

@@ -10,8 +10,9 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Simulator Intractive Prime School Tunisia' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel:"stylesheet",  type:"text/css" ,href: 'https://fonts.googleapis.com/css?family=Amiri' }
+],
   },
   /*
   ** Customize the progress bar color

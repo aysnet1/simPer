@@ -1,5 +1,5 @@
 <template>
-  <section class="container">
+  <section class="fns container">
     <div>
       <div class="links">
          <nuxt-link   class="button--green" to="/labo"> المخبر</nuxt-link>
@@ -37,22 +37,6 @@ p{
   font-size: 20px;
   justify-content: rigth;
 }
-.container {
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
 
 .subtitle1 {
   font-weight: 200;
@@ -62,7 +46,5 @@ p{
   padding-bottom: 5px;
 }
 
-.links {
-  padding-top: 15px;
-}
+
 </style>

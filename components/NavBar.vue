@@ -1,13 +1,13 @@
 <template>
   <div dir="ltr" style="margin:33px">
     <div class="ui top  inverted five item labeled icon sidebar menu visible " style="height: 70px !important ;   border-bottom: 1px solid #dbdfe1 !important;background: #ffffff !important; " >
-      <router-link class="item activen" to="/">
+      <router-link class="item " to="/">
       <i class="home icon"></i>
       الرّئيسية
     </router-link>
     <router-link class="item" to="/labo">
       <i class="flask icon"></i>
-    المخبر
+    المختبر
     </router-link>
 
     <router-link class="item" to="about">
@@ -25,7 +25,7 @@
   مساعدة
       </router-link>
     </div>
-      
+
   </div>
 </template>
 <script>
