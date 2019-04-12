@@ -12,7 +12,7 @@
      By
      <a class='positive ui button mini' href='http://fb.com/ayss.net' target="_blank" >Aysser Jbili</a> and
    <a class='positive ui mini button' href='http://fb.com/maher.lahmar.98' target="_blank" >Maher Lahmer</a>
-   © 2018
+   © 2019-2021
 		</span>
 
   </div>
