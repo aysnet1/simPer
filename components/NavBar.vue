@@ -1,5 +1,5 @@
 <template>
-  <div dir="ltr" style="margin:33px">
+  <div   style="margin:33px">
     <div class="ui top  inverted five item labeled icon sidebar menu visible " style="height: 70px !important ;   border-bottom: 1px solid #dbdfe1 !important;background: #ffffff !important; " >
       <router-link class="item " to="/">
       <i class="home icon"></i>
@@ -7,7 +7,7 @@
     </router-link>
     <router-link class="item" to="/labo">
       <i class="flask icon"></i>
-      
+
     المختبر
     </router-link>
 
