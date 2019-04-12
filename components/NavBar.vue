@@ -39,7 +39,7 @@ export default {
 <style >
 .item {
   min-width:4.3em  !important;
-  color:#6fce9f !important;
+  color:#1a1d1ccf !important;
 }
 .bb{
   visibility: visible !important;
