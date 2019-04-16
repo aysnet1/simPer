@@ -88,7 +88,7 @@
         </span>
         By
         <nuxt-link class="by-link" to="/phet">
-          PhET Simulations
+          Tunisina
         </nuxt-link>
       </div>
     </div>
@@ -128,7 +128,7 @@
         </span>
         By
         <nuxt-link class="by-link" to="/phet">
-          PhET Simulations
+          Tunisina 
         </nuxt-link>
       </div>
     </div>
