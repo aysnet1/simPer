@@ -1,6 +1,6 @@
 <template>
   <div >
-<NavBar  ></NavBar>
+<NavBar dir="rtl"  ></NavBar>
   <nuxt/>
   <FooTer></FooTer>
   </div>
