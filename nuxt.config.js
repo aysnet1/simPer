@@ -12,7 +12,7 @@ module.exports = {
       {name:"أيسر جبيلي و ماهر الأحمر" ,content:"أستاذ تعليم ابتدائي"}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/sim-large.ico' },
 
       { rel:"stylesheet",  type:"text/css" ,href: 'https://fonts.googleapis.com/css?family=Amiri' }
 

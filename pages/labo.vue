@@ -1,11 +1,13 @@
 <template >
 <div dir="rtl" id="" style="margin:33px">
 
-  <div class="ui special cards">
- <div v-for="sim in sims " :key="sim.id" class="card">
+  <div class="ui special  cards">
+ <div v-for="sim in sims " :key="sim.id" class=" card" >
+
        <div class="image">
+         <div class="ui placeholder">
         <div style="background:#0ace58" class="ui top left attached label">SimTn</div>
-        <div class="ui dimmer transition">
+        <div  class="ui dimmer placeholder transition">
           <div class="content">
             <div class="center">
 
@@ -24,6 +26,7 @@
           </nuxt-link>
         </no-ssr>
         </div>
+      </div>
       </div>
 
       <div class="content">
@@ -69,10 +72,10 @@ data  () {
  sims: [
         { id:0, title:"امتصاص النبتة للماء",by:"SimTunisina",date:"24 أفريل 2019",img:"0.png",link:"/peau",desc:"راجع الكتاب المدرسي سنة خامسة صفحة 148" },
         { id:1, title:"أهمية الجذور بالنسبة لنبة",by:"SimTunisina",date:"24 أفريل 2019",img:"1.png",link:"/pltmort",desc:"موت النبة بدون جذور..." },
-        { id:2, title:"دور الساق في عملية الامتصاص",by:"SimTunisina",date:"24 أفريل 2019",img:"2.png" ,link:"/pcolor",desc:"تغير لون الازهار بالماءنتيجة الماء الملون"},
+        { id:2, title:"دور الساق في عملية الامتصاص",by:"SimTunisina",date:"24 أفريل 2019",img:"2.png" ,link:"/pcolor",desc:"تغير لون الازهار نتيجة الماء الملون"},
         { id:3, title:"تبخر الماء",by:"SimTunisina",date:"24 أفريل 2019",img:"3.png",link:"/pltva",desc:"تبخر الماء عن طريق الاوراق.." },
         { id:4, title:"الدارة العكهربئية",by:"SimTunisina",date:"24 أفريل 2019",img:"circuit.png",link:"/circuit",desc:"بناء الدارة الكهربئية " },
-        { id:5, title:"أشكال الطاقة",by:"Simulator",date:"24 أفريل 2019",img:"6fors.png",link:"/forse",desc:"تحول الطاقة من حالة الى اخرى" },
+        { id:5, title:"أشكال الطاقة",by:"SimTunisina",date:"24 أفريل 2019",img:"6fors.png",link:"/forse",desc:"تحول الطاقة من حالة الى اخرى" },
 
       ]
 }

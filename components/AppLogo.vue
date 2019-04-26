@@ -1,29 +1,28 @@
 <template>
-  <div class="VueToNuxtLogo">
-    <div class="Triangle Triangle--two"/>
-    <div class="Triangle Triangle--one"/>
-    <div class="Triangle Triangle--three"/>
-    <div class="Triangle Triangle--four"/>
+
+    <div class="VueToNuxtLogo">
+
+          <img class="imgr" src="/websim.png" alt="">
+
+
+
   </div>
 </template>
 
 <style>
 .VueToNuxtLogo {
   display: inline-block;
-  animation: turn 2s linear forwards 1s;
-  transform: rotateX(180deg);
+
   position: relative;
-  overflow: hidden;
-  height: 180px;
-  width: 245px;
+
+  /* height: 180px;*/
+  width: 75%;
 }
 
-.Triangle {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 0;
-  height: 0;
+.imgr {
+
+  width: 100%
+
 }
 
 .Triangle--one {
@@ -77,4 +76,3 @@
   }
 }
 </style>
-
