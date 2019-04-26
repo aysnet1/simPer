@@ -3,7 +3,7 @@
 
 <div dir="rtl" id="">
 
-    <iframe src="https://simo.tunisina.tn/plante_4.html"
+    <iframe src="https://simo.tunisina.tn/peau.html"
     style="width:100%" height="600" scrolling="no" allowfullscreen></iframe>
 </div>
 </template>
@@ -21,5 +21,4 @@ export default {
 
 <style>
 
- 
 </style>

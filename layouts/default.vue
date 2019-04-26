@@ -16,7 +16,7 @@ export default {
 }
 </script>
 <style>
-@import '../seman/semantic.rtl.css';
+ 
 
 body{
  padding-top:60px !important;
