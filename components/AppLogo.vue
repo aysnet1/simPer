@@ -1,12 +1,16 @@
 <template>
 
-    <div class="VueToNuxtLogo">
-
-          <img class="imgr" src="/websim.png" alt="">
 
 
 
-  </div>
+
+            <img width="100%" class="imgr" src="/cover.png" alt="">
+
+
+
+
+
+
 </template>
 
 <style>
@@ -16,12 +20,14 @@
   position: relative;
 
   /* height: 180px;*/
-  width: 75%;
+  width: 100%;
 }
 
 .imgr {
 
-  width: 100%
+  display: inline-block;
+
+  position: relative;
 
 }
 

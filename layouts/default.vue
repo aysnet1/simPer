@@ -1,6 +1,9 @@
 <template>
   <div >
-<NavBar dir="rtl"  ></NavBar>
+<NavBar dir="rtl"  >
+
+</NavBar>
+ 
   <nuxt/>
   <FooTer></FooTer>
   </div>
@@ -16,7 +19,7 @@ export default {
 }
 </script>
 <style>
- 
+
 
 body{
  padding-top:60px !important;

@@ -1,5 +1,5 @@
 <template>
-  <div   style="margin:33px">
+  <div>
     <div class="ui top  inverted five item labeled icon sidebar menu visible " style="height: 70px !important ;   border-bottom: 1px solid #dbdfe1 !important;background: #ffffff !important; " >
       <router-link class="item " to="/">
       <i class="home icon"></i>

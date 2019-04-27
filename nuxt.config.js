@@ -23,6 +23,9 @@ module.exports = {
     {src: 'seman/semantic.rtl.css'},
 
   ],
+  plugins: [
+    { src: '~/plugins/vue-particles.js', ssr: false }
+  ],
   /*
   ** Customize the progress bar color
   */
