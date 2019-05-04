@@ -3,7 +3,7 @@
 
 <div dir="rtl" id="">
 
-    <iframe src="https://simo.tunisina.tn/pltmort.html"
+    <iframe src="https://simz.netlify.com/pltmort.html"
     style="width:100%" height="600" scrolling="no" allowfullscreen></iframe>
 </div>
 </template>
