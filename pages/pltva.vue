@@ -3,7 +3,7 @@
 
 <div dir="rtl" id="">
 
-    <iframe src="https://simo.tunisina.tn/pltva.html"
+    <iframe src="https://simz.netlify.com/pltva.html"
     style="width:100%" height="600" scrolling="no" allowfullscreen></iframe>
 </div>
 </template>
