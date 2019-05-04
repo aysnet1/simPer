@@ -3,7 +3,7 @@
 
 <div dir="rtl" id="">
 
-    <iframe src="https://simo.tunisina.tn/pcolor.html"
+    <iframe src="https://simz.netlify.com/pcolor.html"
     style="width:100%" height="600" scrolling="no" allowfullscreen></iframe>
 </div>
 </template>
