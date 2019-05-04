@@ -3,7 +3,7 @@
 
 <div dir="rtl" id="">
 
-    <iframe src="https://simo.tunisina.tn/peau.html"
+    <iframe src="https://simz.netlify.com/peau.html"
     style="width:100%" height="600" scrolling="no" allowfullscreen></iframe>
 </div>
 </template>
