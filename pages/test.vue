@@ -70,7 +70,7 @@ data  () {
     return {
 
  sims: [
-        { id:0, title:"تمرين امتصاص النبتة للماء ",by:"SimTunisina",date:"24 ماي 2019",img:"0.png",link:"/app1",desc:"راجع الكتاب المدرسي سنة خامسة صفحة 148" },
+        { id:0, title:"تمرين امتصاص النبتة للماء ",by:"SimTunisina",date:"24 ماي 2019",img:"app1.png",link:"/app1",desc:"راجع الكتاب المدرسي سنة خامسة صفحة 148" },
 
 
       ]
