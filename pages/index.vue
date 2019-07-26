@@ -31,11 +31,7 @@ Tunisina Simulator Interactive
 </template>
 
 <script>
-
 import AppLogo from '~/components/AppLogo.vue'
-
-
-
 export default {
   components: {
     AppLogo
@@ -44,7 +40,6 @@ export default {
 </script>
 
 <style>
-
 .colorgr{
   background-image: linear-gradient(to bottom, #67f9d3, #7ffbed, #a3fafd, #c8faff, #e9f9ff, #f3faff, #fafcff, #ffffff, #ffffff, #ffffff, #ffffff, #ffffff);
 }

@@ -5,23 +5,23 @@
       <i class="home icon"></i>
       الرّئيسية
     </router-link>
-    <router-link class="item" to="labo">
+    <router-link class="item" to="/labo">
       <i class="flask icon"></i>
 
     المختبر
     </router-link>
 
-    <router-link class="item" to="about">
+    <router-link class="item" to="/about">
  <i class="envelope icon"></i>
 من نحن   </router-link>
-   <router-link class="item" to="test">
+   <router-link class="item" to="/test">
     <i class="pencil alternate icon"></i>
       تمارين
         </router-link>
 
 
 
-      <router-link class="item" to="help">
+      <router-link class="item" to="/help">
   <i class="blind icon"></i>
   مساعدة
       </router-link>
