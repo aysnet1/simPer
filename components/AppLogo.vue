@@ -4,7 +4,7 @@
 
 
 
-            <img width="100%" class="imgr" src="/cover.png" alt="">
+            <img width="100%" class="imgr" src="/cover-noir.png" alt="">
 
 
 
