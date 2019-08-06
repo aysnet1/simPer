@@ -82,9 +82,9 @@ module.exports = {
           name: 'français'
         }
       ],
-      defaultLocale: 'ar',
+      defaultLocale: 'en',
       vueI18n: {
-        fallbackLocale: 'ar',
+        fallbackLocale: 'en',
         messages: {
           ar: require('./lang/ar.json'),
           en: require('./lang/en.json'),
