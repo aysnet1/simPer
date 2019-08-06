@@ -1,11 +1,13 @@
 <template>
-  <div >
-<NavBar dir="rtl"  >
+  <div :dir="$t('dir')">
+<NavBar >
 
 </NavBar>
- 
+
+
   <nuxt/>
   <FooTer></FooTer>
+
   </div>
 </template>
 <script>
@@ -14,21 +16,20 @@ import FooTer from '~/components/FooTer.vue'
 
 export default {
   components: {
-    NavBar,FooTer
-  }
+    NavBar, FooTer
+  },
+
+
 }
 </script>
 <style>
 
-
 body{
  padding-top:60px !important;
-
 }
 iframe{
    border-style: none;
    border:0;
-
 }
  html {
   font-family: "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -40,13 +41,10 @@ iframe{
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
-
-
 *, *:before, *:after {
   box-sizing: border-box;
   margin: 0;
 }
-
 .button--green {
   display: inline-block;
   border-radius: 4px;
@@ -55,12 +53,10 @@ iframe{
   text-decoration: none;
   padding: 10px 30px;
 }
-
 .button--green:hover {
   color: #fff;
   background-color: #3b8070;
 }
-
 .button--grey {
   display: inline-block;
   border-radius: 4px;
@@ -70,18 +66,14 @@ iframe{
   padding: 10px 30px;
   margin-left: 15px;
 }
-
 .button--grey:hover {
   color: #fff;
   background-color: #35495e;
 }
-
 p {
   font-family: Amiri !important;
   font-size: 120%;
   line-height: 1.6em
-
-
 }
 .fns.container {
   min-height: 100vh;
@@ -90,7 +82,6 @@ p {
   align-items: center;
   text-align: center;
 }
-
 .title {
   font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif; /* 1 */
   display: block;
@@ -99,9 +90,6 @@ p {
   color: #35495e;
   letter-spacing: 1px;
 }
-
-
-
 .links {
   padding-top: 15px;
 }

@@ -1,52 +1,67 @@
 <template>
-  <div>
-    <div class="ui top  inverted five item labeled icon sidebar menu visible " style="height: 70px !important ;   border-bottom: 1px solid #dbdfe1 !important;background: #ffffff !important; " >
-      <router-link class="item " to="/">
+<div>
+  <div class="ui secondary pointing labeled menu baro fixed five item icon top" style="">
+    <router-link class="item " :to="localePath('index')">
       <i class="home icon"></i>
-      الرّئيسية
+      {{$t('page.home')}}
     </router-link>
-    <router-link class="item" to="/labo">
+    <router-link class="item" :to="localePath('labo')">
       <i class="flask icon"></i>
 
-    المختبر
+      {{$t('page.labo')}}
     </router-link>
 
-    <router-link class="item" to="/about">
- <i class="envelope icon"></i>
-من نحن   </router-link>
-   <router-link class="item" to="/test">
-    <i class="pencil alternate icon"></i>
-      تمارين
-        </router-link>
+
+    <router-link class="item" :to="localePath('about')">
+      <i class="envelope icon"></i>
+      {{$t('page.about')}}
+    </router-link>
+    <router-link class="item" :to="localePath('test')">
+      <i class="pencil alternate icon"></i>
+      {{$t('page.ex')}}
+    </router-link>
 
 
-
-      <router-link class="item" to="/help">
-  <i class="blind icon"></i>
-  مساعدة
-      </router-link>
-    </div>
-
+    <router-link class="item" :to="localePath('help')">
+      <i class="help icon"></i>
+      {{$t('page.help')}}
+    </router-link>
   </div>
+  <SwitchLang></SwitchLang>
+
+</div>
 </template>
 <script>
+import SwitchLang from '~/components/SwitchLang.vue'
 export default {
-  name: "",
-  data: () => ({
+  components: {
+    SwitchLang
+  },
 
-  })
+
 }
 </script>
 <style >
-.item {
-  min-width:4.3em  !important;
-  color:#1a1d1ccf !important;
+.baro {
+  height: 80px !important;
+  background: #ffffff !important;
+  z-index: 1;
 }
-.bb{
+.nuxt-link-exact-active.item {
+  background-color: #79554808 !important;
+  box-shadow: none !important;
+  border-color: #15b5a6 !important;
+  font-weight: bold !important;
+}
+
+.item {
+  min-width: 4.3em !important;
+  color: #1a1d1ccf !important;
+}
+
+.bb {
   visibility: visible !important;
   -webkit-transform: translate3d(0, 0, 0);
   transform: translate3d(0, 0, 0)
-
-
 }
 </style>

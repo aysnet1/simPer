@@ -1,10 +1,10 @@
 <template>
   <div class="component-wrapper">
-    <header>
+    <!-- <header>
     <h1>Cool Articles</h1>
   </header>
-  <div class="band">
-    <div class="item-1">
+  <div class="band"> -->
+    <!-- <div class="item-1">
       <a href="https://design.tutsplus.com/articles/international-artist-feature-malaysia--cms-26852" class="card">
         <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-1.jpg);"></div>
         <article>
@@ -12,74 +12,57 @@
           <span>Mary Winkler</span>
         </article>
       </a>
-    </div>
-    <div class="item-2">
-      <a href="https://webdesign.tutsplus.com/articles/how-to-conduct-remote-usability-testing--cms-27045" class="card">
+    </div> -->
+    <!-- <div class="item-2" v-for="ip in ips.items" :key="ip.id">
+      <a class="card">
         <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/users-2.png);"></div>
         <article>
-          <h1>How to Conduct Remote Usability Testing</h1>
+          <h1>{{ip.title}}</h1>
           <span>Harry Brignull</span>
         </article>
       </a>
     </div>
-    <div class="item-3">
-      <a href="https://design.tutsplus.com/articles/envato-tuts-community-challenge-created-by-you-july-edition--cms-26724" class="card">
-        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flex-5.jpg);"></div>
-        <article>
-          <h1>Created by You, July Edition</h1>
-          <p>Welcome to our monthly feature of fantastic tutorial results created by you, the Envato Tuts+ community! </p>
-          <span>Melody Nieves</span>
-        </article>
-      </a>
-    </div>
-    <div class="item-4">
-      <a href="https://webdesign.tutsplus.com/tutorials/how-to-code-a-scrolling-alien-lander-website--cms-26826" class="card">
-        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/landing.png);"></div>
-        <article>
-          <h1>How to Code a Scrolling “Alien Lander” Website</h1>
-          <p>We’ll be putting things together so that as you scroll down from the top of the page you’ll see an “Alien Lander” making its way to touch down.</p>
-          <span>Kezz Bracey</span>
-        </article>
-      </a>
-    </div>
-    <div class="item-5">
-      <a href="https://design.tutsplus.com/tutorials/stranger-things-inspired-text-effect--cms-27139" class="card">
-        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/strange.jpg);"></div>
-        <article>
-          <h1>How to Create a “Stranger Things” Text Effect in Adobe Photoshop</h1>
-          <span>Rose</span>
-        </article>
-      </a>
-    </div>
-    <div class="item-6">
-      <a href="https://photography.tutsplus.com/articles/5-inspirational-business-portraits-and-how-to-make-your-own--cms-27338" class="card">
-        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/flor.jpg);"></div>
-        <article>
-          <h1>5 Inspirational Business Portraits and How to Make Your Own</h1>
 
-          <span>Marie Gardiner</span>
-        </article>
-      </a>
+  </div> -->
+  <div dir="rtl" class="ui raised link card" v-for="ip in ips.items" :key="ip.id">
+    <div class="content">
+      <div class="header">{{ip.title}}</div>
+      <div class="meta">
+        <span class="left floated time">2 days ago</span>
+        <span class="category">{{ip.labels}}</span>
+      </div>
+      <div class="description" v-html="ip.content.substring(54,200)+'...'">
+        <!-- <p>{{ip.content.substring(0,8)}}</p> -->
+      </div>
     </div>
-    <div class="item-7">
-      <a href="https://webdesign.tutsplus.com/articles/notes-from-behind-the-firewall-the-state-of-web-design-in-china--cms-22281" class="card">
-        <div class="thumb" style="background-image: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/210284/china.png);"></div>
-        <article>
-          <h1>Notes From Behind the Firewall: The State of Web Design in China</h1>
-          <span>Kendra Schaefer</span>
-        </article>
-      </a>
+    <div class="extra content">
+      <div class="left floated author">
+        <img class="ui avatar image" src="/images/avatar/small/matt.jpg"> Matt
+      </div>
     </div>
   </div>
+
   </div>
 </template>
 
 <script>
-  export default {
-    mounted() {
-      console.log('New component mounted.')
-    }
+
+import axios from 'axios'
+
+
+export default {
+  data  () {
+     return {
+
+     }},
+
+  async asyncData({ $axios}) {
+
+    const ips = await $axios.$get('https://www.googleapis.com/blogger/v3/blogs/8851049595699828283/posts?key=AIzaSyCjt2vZNDCqRj-JARdZjIPjiiaoKo3f_Rw')
+    return { ips }
+
   }
+}
 </script>
 
 <style >

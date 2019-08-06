@@ -29,7 +29,7 @@
       </div>
       </div>
 
-      <div class="content">
+      <div class="content ui placeholder">
         <a class="header">{{sim.title}}</a>
         <div class="meta">
           <span class="date">
