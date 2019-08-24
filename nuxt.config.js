@@ -57,7 +57,8 @@ module.exports = {
     'nuxt-i18n',
      ['@nuxtjs/google-analytics', {
       id: 'UA-90987178-1'
-    }]
+    }],
+    ['@nuxtjs/google-tag-manager', { id: 'GTM-WL39KHX' }]
   ],
   i18n: {
       baseUrl: 'http://localhost:3000',
