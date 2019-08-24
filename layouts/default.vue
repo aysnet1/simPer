@@ -1,13 +1,15 @@
 <template>
   <div :dir="$t('dir')">
   <no-ssr>
-  <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-56K3S4N');</script>
-<!-- End Google Tag Manager -->
+ <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-90987178-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-90987178-1');
+</script>
 </no-ssr>
 <NavBar >
 
@@ -22,17 +24,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <nuxt/>
   
   <FooTer></FooTer>
-<no-ssr>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139138473-1"></script>
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){dataLayer.push(arguments);}
-gtag('js', new Date());
-
-gtag('config', 'UA-139138473-1', { 'optimize_id': 'GTM-MPVJX47'});
-</script>
-</no-ssr>
   </div>
 </template>
 <script>
