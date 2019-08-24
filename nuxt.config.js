@@ -61,7 +61,7 @@ module.exports = {
     ['@nuxtjs/google-tag-manager', { id: 'GTM-WL39KHX' }]
   ],
   i18n: {
-      baseUrl: 'http://localhost:3000',
+      baseUrl: 'https://tunisina.tn',
       seo: true,
       sync: false,
       strategy: 'prefix_except_default',
