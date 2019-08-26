@@ -75,7 +75,15 @@ data  () {
 
       ]
 }
-}
+},
+head: {
+    title: 'تمارين ايقاظ علمي',
+    titleTemplate: '%s - tunisina',
+    meta: [
+      { hid: 'description', name: 'description', content: 'تمارين الايقاظ العلمي تجارب علمية للابتدائي' },
+      { name: 'og:image', content: 'https://tunisina.tn/sim-large.png' },
+    ]
+  }
 }
 </script>
 

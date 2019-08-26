@@ -70,7 +70,15 @@ export default {
    sims () {
     return this.$store.state.sims.all
   }
-}
+},
+head: {
+    title: 'المختبر : برمجيات المحاكاة',
+    titleTemplate: '%s - tunisina',
+    meta: [
+      { hid: 'description', name: 'description', content: 'برمجيات االمحاكاة التفاعلية' },
+      { name: 'og:image', content: 'https://tunisina.tn/sim-large.png' },
+    ]
+  }
 
 }
 </script>

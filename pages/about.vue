@@ -37,7 +37,15 @@ import AppLogo from '~/components/AppLogo.vue'
 export default {
   components: {
     AppLogo
-  }
+  },
+  head: {
+      title: 'من نحن ',
+      titleTemplate: '%s - tunisina',
+      meta: [
+        { hid: 'description', name: 'description', content: 'تونيزينا مختبر افتراضي للمدرسة الابتدائية' },
+        { name: 'og:image', content: 'https://tunisina.tn/sim-large.png' },
+      ]
+    }
 }
 </script>
 

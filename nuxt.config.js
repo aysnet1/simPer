@@ -1,28 +1,14 @@
-module.exports = {
+armodule.exports = {
   /*
    ** Headers of the page
    */
   head: {
-    title: 'تونيزينا',
     meta: [{
         charset: 'utf-8'
       },
       {
         name: 'viewport',
         content: 'width=device-width, initial-scale=1'
-      },
-      {
-        hid: 'description',
-        name: 'description',
-        content: ' Virtual Lab tunisina for all and free '
-      },
-      {
-        name: 'keywords',
-        content: 'SimPsT, Simulator,تجارب الايقاظ العلمي ,سنة خامسة,سنة سادسة,التعليم في تونس,دروس الايقاظ العلمي سنة خامسة ,دروس الايقاظ العلمي سنة سادسة ,ابتدائية,سنة رابعة,الدرجة الثالثة,دروس,تمارين,التعليم الابتدائي,المدرسة التونسية,المخبر الافتراضي,محاكاة التجارب'
-      },
-      {
-        name: "أيسر جبيلي و ماهر الأحمر",
-        content: "أستاذ تعليم ابتدائي"
       }
     ],
     link: [{
@@ -86,9 +72,9 @@ module.exports = {
           name: 'français'
         }
       ],
-      defaultLocale: 'en',
+      defaultLocale: 'ar',
       vueI18n: {
-        fallbackLocale: 'en',
+        fallbackLocale: 'ar',
         messages: {
           ar: require('./lang/ar.json'),
           en: require('./lang/en.json'),
