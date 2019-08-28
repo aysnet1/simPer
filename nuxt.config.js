@@ -47,6 +47,10 @@ module.exports = {
     }],
     ['@nuxtjs/google-tag-manager', { id: 'GTM-WL39KHX' }]
   ],
+   sitemap: {
+    hostname: 'https://www.tunisina.tn',
+    gzip: true
+   },
   i18n: {
       baseUrl: 'https://tunisina.tn',
       seo: true,
