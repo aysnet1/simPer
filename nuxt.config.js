@@ -41,6 +41,7 @@ module.exports = {
   modules: [
     '@nuxtjs/axios',
     'nuxt-i18n',
+    '@nuxtjs/sitemap',
      ['@nuxtjs/google-analytics', {
       id: 'UA-90987178-1'
     }],
