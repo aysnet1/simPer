@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="ui secondary pointing labeled menu baro fixed five item icon top" style="">
+  <div class="ui secondary pointing labeled menu baro fixed five item icon bottom" style="bottom:0 !important">
     <router-link class="item " :to="localePath('index')">
       <i class="home icon"></i>
       {{$t('page.home')}}
