@@ -21,7 +21,7 @@
     "firebase": "^6.3.3",
     "fs": "0.0.1-security",
     "googleapis": "^41.0.1",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "net": "^1.0.2",
     "nuxt": "^2.0.0",
     "nuxt-i18n": "^6.0.0",
