@@ -19,7 +19,7 @@ export default {
   },
  data  () {
     return {
-      link: this.$route.params.id,
+      link: this.$route.params.link,
     }
 
 },
