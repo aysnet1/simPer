@@ -1,6 +1,6 @@
 module.exports = {
   generate :{ 
-    routes :['/sims/peau','/sims/pltva','/sims/pltmort','/sims/pcolor','/sims/circuit','/sims/forse']
+    routes :['/sims/peau','/sims/pltva','/sims/pltmort','/sims/pcolor','/sims/circuit','/sims/forse','/en/sims/peau','/en/sims/pltva','/en/sims/pltmort','/en/sims/pcolor','/en/sims/circuit','/en/sims/forse','/fr/sims/peau','/fr/sims/pltva','/fr/sims/pltmort','/fr/sims/pcolor','/fr/sims/circuit','/fr/sims/forse']
 },
   /*
    ** Headers of the page
