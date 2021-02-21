@@ -1,6 +1,6 @@
 <template>
 <div>
-  <div class="ui v secondary pointing labeled menu baro fixed five item icon bottom" style="bottom:0 !important">
+  <div class="ui v secondary pointing labeled menu baro fixed five item icon top"">
     <router-link class="item " :to="localePath('index')">
       <i class="home icon"></i>
       {{$t('page.home')}}
@@ -43,7 +43,6 @@ export default {
 </script>
 <style >
 .baro {
-  height: 80px !important;
   background: #ffffff !important;
   z-index: 1;
 }
