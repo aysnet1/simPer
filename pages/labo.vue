@@ -16,7 +16,7 @@
         </div>
         <div>
             <no-ssr>
-          <nuxt-link :to="'sims/'+sim.link" style="text-decoration: none;"><img :src="'/'+sim.img" alt="" style="border: none;" width="300" height="200" />
+          <nuxt-link :to="'/sims/'+sim.link" style="text-decoration: none;"><img :src="'/'+sim.img" alt="" style="border: none;" width="300" height="200" />
             <div style="position: absolute; width: 200px; height: 80px; left: 50px; top: 60px; background-color: #FFF; opacity: 0.6; filter: alpha(opacity = 60);"></div>
             <table style="position: absolute; width: 200px; height: 80px; left: 50px; top: 60px;">
               <tr>
