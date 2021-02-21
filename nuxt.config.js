@@ -1,5 +1,5 @@
 module.exports = {
-  generate{ 
+  generate :{ 
     routes :['/sims/peau','/sims/pltva','/sims/pltmort','/sims/pcolor','/sims/circuit','/sims/forse']
 },
   /*
