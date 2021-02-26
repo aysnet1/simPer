@@ -10,8 +10,7 @@
     <span class="center txt-footer">
 		Tunisina.tn  + Tunisina.com | Made With <i class="heart red icon"></i>
      By
-     <a class='positive ui  mini' href='http://fb.com/ayss.net' target="_blank" >Aysser Jbili</a> and
-   <a class='positive ui mini ' href='http://fb.com/maher.lahmar.98' target="_blank" >Maher Lahmer</a>
+     <a class='positive ui  mini' href='http://fb.com/ayss.net' target="_blank" >Aysser Jbili</a>
    © 2019-2021
    <a href="https://www.netlify.com">
  <img width="60" heigth="30" src="https://www.netlify.com/img/global/badges/netlify-color-bg.svg">
