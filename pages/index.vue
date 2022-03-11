@@ -10,7 +10,7 @@
       <h2 class="subtitle">
        {{$t('home.tb')}}
       </h2>
-      <p>{{$t('home.tc')}}</p>
+      <p></p>
       <div class="links">
          <nuxt-link   class="button--green" to="/labo"> {{$t('page.labo')}}</nuxt-link>
 
