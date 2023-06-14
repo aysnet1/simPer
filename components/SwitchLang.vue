@@ -1,9 +1,9 @@
 <template>
   <div class="btn-l">
-    <div class="ui floating dropdown button mini">
-      <div class="text">{{$t('lang')}}</div>
-      <i class="world icon"></i>
-      <div class="menu">
+    <select class="ui floating  button mini">
+      <option select class="text">{{$t('lang')}}</option>
+    
+      <option class="menu">
         <nuxt-link class="item"
         :to="switchLocalePath(locale.code)"
         v-for="locale in $i18n.locales"
